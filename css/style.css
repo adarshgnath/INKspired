@@ -139,9 +139,16 @@ body{
     background-position: Calc(-70vw - 40px) 50%;
   }
 }
-.imgee{
-  padding: 0px;
+.parallax{
+  position: relative;
+  background-position: center;
   background-size: cover;
-  width: 100%;
-  clip-path: polygon(0 26%, 100% 27%, 100% 76%, 0 46%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display : flex;
+  align-items : center;
+}
+.img1{
+  background-image: url(/images/3.jpg);
+  height: 100%;
 }
